@@ -1,0 +1,6 @@
+node_modules
+dist
+.env
+settings.local.json
+.playwright-cli
+records.tsv

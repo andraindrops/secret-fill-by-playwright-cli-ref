@@ -1,0 +1,38 @@
+{
+  "name": "secret-fill-by-playwright-cli-ref",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "dist/secret-fill-by-playwright-ref.js",
+  "types": "dist/secret-fill-by-playwright-ref.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/secret-fill-by-playwright-ref.d.ts",
+      "import": "./dist/secret-fill-by-playwright-ref.js"
+    }
+  },
+  "bin": {
+    "secret-fill-by-playwright-cli-ref": "dist/secret-fill-by-playwright-ref.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "lint": "biome check .",
+    "test": "vitest run",
+    "format": "biome check --fix ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.7",
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
+}
