@@ -1,8 +1,11 @@
 # secret-fill-by-playwright-cli-ref
 
-This tool fills an input field using a Playwright CLI ref and a secret value from `.env`.
+`secret-fill-by-playwright-cli-ref` for Agent Skills using playwright-cli.\
+It fills input fields by ref and loads secret values from `.env`.\
+This helps keep secrets out of chat and generated browser code.
 
-This tool is designed to reduce secret exposure in chat and generated browser code.
+
+![](https://www.j64out.dev/posts/container/20260316/1.png)
 
 ## How to use?
 
@@ -49,4 +52,4 @@ PASSWORD=your_password
 
 ## Support
 
-[https://x.com/jtakahashi0604]
+[https://x.com/jtakahashi0604](https://x.com/jtakahashi0604)
