@@ -42,7 +42,7 @@ npm install -g playwright-cli
 
 ## Setup - Secrets
 
-Store secret values in your own .env file.
+Store secret values in your own `.env` file.
 Do not store secrets inside this skill.
 
 ```
